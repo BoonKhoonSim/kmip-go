@@ -117,3 +117,13 @@ type SetAttributeRequestPayload struct {
     AttributeValue       string
 }
 
+// ReKeyRequestPayload ////////////////////////////////////////
+type ReKeyRequestPayload struct {
+	UniqueIdentifier  UniqueIdentifierValue
+}
+
+// ReKeyResponsePayload 
+type ReKeyResponsePayload struct {
+	UniqueIdentifier     string
+}
+
